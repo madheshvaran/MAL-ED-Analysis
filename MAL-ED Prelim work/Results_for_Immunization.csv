@@ -1,0 +1,3 @@
+"","iri","label","type","parentlabel","category","definition","min","max","average","upper_quartile","lower_quartile","number_distinct_values","distinct_values","variable"
+"479","EUPATH_0010947","Immunization and prevention","","Observation","","","","",NA,"","",NA,"",NA
+"691","EUPATH_0011471","Aggregated immunization and prevention data","","Participant","","","","",NA,"","",NA,"",NA
