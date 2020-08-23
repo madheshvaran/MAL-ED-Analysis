@@ -60,3 +60,33 @@ finalmerge <- finalmerge[ , ..vector] #Moved Sample_Id to the first row
 write.table(finalmerge, "tidy data/Bangladesh.txt", sep = "\t")
 
 ##Similarly Continue for all other countries
+
+
+## Vaccines Responses that are done through Blood Antibody Test
+var_names <-  read.csv("MAL-ED Prelim work/FinalResult.csv")
+#Extracting Antibody Titers and Log2 Values from var_names
+id1 <- grep("titer", var_names$label, ignore.case = TRUE)
+#Extracting Cut-off limits for a vaccine to be considered positive which is the first 8 columns
+id2 <- 1:8
+
+data_that_i_want <- var_names[c(id1, id2),]
+write.csv(data_that_i_want ,"tidy data/Var_names for Antibody Titers.csv")
+
+
+##Creating Cut-Off Data Set
+label <- var_names[1:8,c(2,3,7)]
+cutoff <- data.frame(Cutoff_In_IU_per_L = c(250, 38, 8 ,10 ,20, 100, 8, 8))
+label <- cbind(label, cutoff)
+
+write.csv(label, "tidy data/Vaccine Cutoff.csv")
+
+
+##No. of Participants in Each country
+No_of_par = c()
+for(i in 1:length(country_name)) {
+  temp <- templist[[i]]
+  No_of_par <- c(No_of_par, nrow(temp))
+}
+
+file <- data.frame(Name = country_name, No_of_Participants = No_of_par)
+write.csv(file, "tidy data/Frequency Table of Participants.csv")
