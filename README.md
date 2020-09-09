@@ -4,4 +4,6 @@
  
 ### Cleaned Data:
  The cleaned dataset for the Observational Data is too large to be uploaded in Github. 
- Similarly the dataset containing the age (in days) when the observation is taken is too large to be uploaded in Github. Both results can be replicated by using the code and the raw data.
+ Similarly the dataset containing the age (in days) when the observation is taken is too large to be uploaded in Github. Both results can be replicated by using the code and the raw data.  
+ 
+ _Note:_ For the code to work, make sure that the corrosponding directories exists in the working directory 
