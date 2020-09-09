@@ -1,0 +1,3 @@
+"Country","Data_Used","statistic","p.value","alpha","method","num_df","denom_df"
+"Tanzania","Included zero values",72.4996298135571,3.6433099940059e-33,0.05,"Brown-Forsythe Test",4,140.083129583598
+"Tanzania","Excluded zero values",82.0270092104699,2.36794023830947e-33,0.05,"Brown-Forsythe Test",4,119.567822797135

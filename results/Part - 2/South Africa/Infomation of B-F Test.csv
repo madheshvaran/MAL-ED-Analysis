@@ -1,0 +1,3 @@
+"Country","Data_Used","statistic","p.value","alpha","method","num_df","denom_df"
+"South Africa","Included zero values",50.8963014296231,6.41531034446812e-31,0.05,"Brown-Forsythe Test",4,237.874936027799
+"South Africa","Excluded zero values",53.042960239679,5.51132091825601e-31,0.05,"Brown-Forsythe Test",4,213.556330833792

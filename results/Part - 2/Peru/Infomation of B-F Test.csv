@@ -1,0 +1,3 @@
+"Country","Data_Used","statistic","p.value","alpha","method","num_df","denom_df"
+"Peru","Included zero values",61.8665291215491,2.65222321998831e-38,0.05,"Brown-Forsythe Test",4,307.303766293358
+"Peru","Excluded zero values",55.7749961024751,5.23580619779373e-33,0.05,"Brown-Forsythe Test",4,234.576538217883

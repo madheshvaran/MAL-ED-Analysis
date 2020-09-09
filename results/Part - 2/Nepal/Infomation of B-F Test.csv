@@ -1,0 +1,3 @@
+"Country","Data_Used","statistic","p.value","alpha","method","num_df","denom_df"
+"Nepal","Included zero values",89.8949136067481,2.58943254641378e-45,0.05,"Brown-Forsythe Test",4,222.042692394967
+"Nepal","Excluded zero values",101.548361834572,6.59892849722372e-45,0.05,"Brown-Forsythe Test",4,178.407325479763
